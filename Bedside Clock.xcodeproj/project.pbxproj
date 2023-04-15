@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCF5B3B929EB00DF00FA120C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF5B3B829EB00DF00FA120C /* AppDelegate.m */; };
+		DCF5B3BC29EB00DF00FA120C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF5B3BB29EB00DF00FA120C /* SceneDelegate.m */; };
+		DCF5B3BF29EB00DF00FA120C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF5B3BE29EB00DF00FA120C /* ViewController.m */; };
+		DCF5B3C229EB00DF00FA120C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF5B3C029EB00DF00FA120C /* Main.storyboard */; };
+		DCF5B3C429EB00E200FA120C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF5B3C329EB00E200FA120C /* Assets.xcassets */; };
+		DCF5B3C729EB00E200FA120C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF5B3C529EB00E200FA120C /* LaunchScreen.storyboard */; };
+		DCF5B3CA29EB00E200FA120C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF5B3C929EB00E200FA120C /* main.m */; };
+		DCF5B3D429EB00E300FA120C /* Bedside_ClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF5B3D329EB00E300FA120C /* Bedside_ClockTests.m */; };
+		DCF5B3DE29EB00E300FA120C /* Bedside_ClockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF5B3DD29EB00E300FA120C /* Bedside_ClockUITests.m */; };
+		DCF5B3E029EB00E300FA120C /* Bedside_ClockUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF5B3DF29EB00E300FA120C /* Bedside_ClockUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCF5B3D029EB00E300FA120C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF5B3AC29EB00DF00FA120C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF5B3B329EB00DF00FA120C;
+			remoteInfo = "Bedside Clock";
+		};
+		DCF5B3DA29EB00E300FA120C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF5B3AC29EB00DF00FA120C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF5B3B329EB00DF00FA120C;
+			remoteInfo = "Bedside Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCF5B3B429EB00DF00FA120C /* Bedside Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bedside Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF5B3B729EB00DF00FA120C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCF5B3B829EB00DF00FA120C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCF5B3BA29EB00DF00FA120C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DCF5B3BB29EB00DF00FA120C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DCF5B3BD29EB00DF00FA120C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCF5B3BE29EB00DF00FA120C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCF5B3C129EB00DF00FA120C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCF5B3C329EB00E200FA120C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCF5B3C629EB00E200FA120C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCF5B3C829EB00E200FA120C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF5B3C929EB00E200FA120C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCF5B3CF29EB00E300FA120C /* Bedside ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bedside ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF5B3D329EB00E300FA120C /* Bedside_ClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bedside_ClockTests.m; sourceTree = "<group>"; };
+		DCF5B3D929EB00E300FA120C /* Bedside ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bedside ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF5B3DD29EB00E300FA120C /* Bedside_ClockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bedside_ClockUITests.m; sourceTree = "<group>"; };
+		DCF5B3DF29EB00E300FA120C /* Bedside_ClockUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bedside_ClockUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCF5B3B129EB00DF00FA120C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5B3CC29EB00E300FA120C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5B3D629EB00E300FA120C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCF5B3AB29EB00DF00FA120C = {
+			isa = PBXGroup;
+			children = (
+				DCF5B3B629EB00DF00FA120C /* Bedside Clock */,
+				DCF5B3D229EB00E300FA120C /* Bedside ClockTests */,
+				DCF5B3DC29EB00E300FA120C /* Bedside ClockUITests */,
+				DCF5B3B529EB00DF00FA120C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCF5B3B529EB00DF00FA120C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5B3B429EB00DF00FA120C /* Bedside Clock.app */,
+				DCF5B3CF29EB00E300FA120C /* Bedside ClockTests.xctest */,
+				DCF5B3D929EB00E300FA120C /* Bedside ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCF5B3B629EB00DF00FA120C /* Bedside Clock */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5B3B729EB00DF00FA120C /* AppDelegate.h */,
+				DCF5B3B829EB00DF00FA120C /* AppDelegate.m */,
+				DCF5B3BA29EB00DF00FA120C /* SceneDelegate.h */,
+				DCF5B3BB29EB00DF00FA120C /* SceneDelegate.m */,
+				DCF5B3BD29EB00DF00FA120C /* ViewController.h */,
+				DCF5B3BE29EB00DF00FA120C /* ViewController.m */,
+				DCF5B3C029EB00DF00FA120C /* Main.storyboard */,
+				DCF5B3C329EB00E200FA120C /* Assets.xcassets */,
+				DCF5B3C529EB00E200FA120C /* LaunchScreen.storyboard */,
+				DCF5B3C829EB00E200FA120C /* Info.plist */,
+				DCF5B3C929EB00E200FA120C /* main.m */,
+			);
+			path = "Bedside Clock";
+			sourceTree = "<group>";
+		};
+		DCF5B3D229EB00E300FA120C /* Bedside ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5B3D329EB00E300FA120C /* Bedside_ClockTests.m */,
+			);
+			path = "Bedside ClockTests";
+			sourceTree = "<group>";
+		};
+		DCF5B3DC29EB00E300FA120C /* Bedside ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5B3DD29EB00E300FA120C /* Bedside_ClockUITests.m */,
+				DCF5B3DF29EB00E300FA120C /* Bedside_ClockUITestsLaunchTests.m */,
+			);
+			path = "Bedside ClockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCF5B3B329EB00DF00FA120C /* Bedside Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF5B3E329EB00E300FA120C /* Build configuration list for PBXNativeTarget "Bedside Clock" */;
+			buildPhases = (
+				DCF5B3B029EB00DF00FA120C /* Sources */,
+				DCF5B3B129EB00DF00FA120C /* Frameworks */,
+				DCF5B3B229EB00DF00FA120C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bedside Clock";
+			productName = "Bedside Clock";
+			productReference = DCF5B3B429EB00DF00FA120C /* Bedside Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCF5B3CE29EB00E300FA120C /* Bedside ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF5B3E629EB00E300FA120C /* Build configuration list for PBXNativeTarget "Bedside ClockTests" */;
+			buildPhases = (
+				DCF5B3CB29EB00E300FA120C /* Sources */,
+				DCF5B3CC29EB00E300FA120C /* Frameworks */,
+				DCF5B3CD29EB00E300FA120C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF5B3D129EB00E300FA120C /* PBXTargetDependency */,
+			);
+			name = "Bedside ClockTests";
+			productName = "Bedside ClockTests";
+			productReference = DCF5B3CF29EB00E300FA120C /* Bedside ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCF5B3D829EB00E300FA120C /* Bedside ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF5B3E929EB00E300FA120C /* Build configuration list for PBXNativeTarget "Bedside ClockUITests" */;
+			buildPhases = (
+				DCF5B3D529EB00E300FA120C /* Sources */,
+				DCF5B3D629EB00E300FA120C /* Frameworks */,
+				DCF5B3D729EB00E300FA120C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF5B3DB29EB00E300FA120C /* PBXTargetDependency */,
+			);
+			name = "Bedside ClockUITests";
+			productName = "Bedside ClockUITests";
+			productReference = DCF5B3D929EB00E300FA120C /* Bedside ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCF5B3AC29EB00DF00FA120C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DCF5B3B329EB00DF00FA120C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					DCF5B3CE29EB00E300FA120C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DCF5B3B329EB00DF00FA120C;
+					};
+					DCF5B3D829EB00E300FA120C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DCF5B3B329EB00DF00FA120C;
+					};
+				};
+			};
+			buildConfigurationList = DCF5B3AF29EB00DF00FA120C /* Build configuration list for PBXProject "Bedside Clock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCF5B3AB29EB00DF00FA120C;
+			productRefGroup = DCF5B3B529EB00DF00FA120C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF5B3B329EB00DF00FA120C /* Bedside Clock */,
+				DCF5B3CE29EB00E300FA120C /* Bedside ClockTests */,
+				DCF5B3D829EB00E300FA120C /* Bedside ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCF5B3B229EB00DF00FA120C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF5B3C729EB00E200FA120C /* LaunchScreen.storyboard in Resources */,
+				DCF5B3C429EB00E200FA120C /* Assets.xcassets in Resources */,
+				DCF5B3C229EB00DF00FA120C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5B3CD29EB00E300FA120C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5B3D729EB00E300FA120C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCF5B3B029EB00DF00FA120C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF5B3BF29EB00DF00FA120C /* ViewController.m in Sources */,
+				DCF5B3B929EB00DF00FA120C /* AppDelegate.m in Sources */,
+				DCF5B3CA29EB00E200FA120C /* main.m in Sources */,
+				DCF5B3BC29EB00DF00FA120C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5B3CB29EB00E300FA120C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF5B3D429EB00E300FA120C /* Bedside_ClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF5B3D529EB00E300FA120C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF5B3E029EB00E300FA120C /* Bedside_ClockUITestsLaunchTests.m in Sources */,
+				DCF5B3DE29EB00E300FA120C /* Bedside_ClockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCF5B3D129EB00E300FA120C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF5B3B329EB00DF00FA120C /* Bedside Clock */;
+			targetProxy = DCF5B3D029EB00E300FA120C /* PBXContainerItemProxy */;
+		};
+		DCF5B3DB29EB00E300FA120C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF5B3B329EB00DF00FA120C /* Bedside Clock */;
+			targetProxy = DCF5B3DA29EB00E300FA120C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCF5B3C029EB00DF00FA120C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF5B3C129EB00DF00FA120C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCF5B3C529EB00E200FA120C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF5B3C629EB00E200FA120C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCF5B3E129EB00E300FA120C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCF5B3E229EB00E300FA120C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCF5B3E429EB00E300FA120C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26Z3ZYB6BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bedside Clock/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MidnightOil.Bedside-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCF5B3E529EB00E300FA120C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26Z3ZYB6BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bedside Clock/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MidnightOil.Bedside-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCF5B3E729EB00E300FA120C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26Z3ZYB6BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MidnightOil.Bedside-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bedside Clock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bedside Clock";
+			};
+			name = Debug;
+		};
+		DCF5B3E829EB00E300FA120C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26Z3ZYB6BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MidnightOil.Bedside-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bedside Clock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bedside Clock";
+			};
+			name = Release;
+		};
+		DCF5B3EA29EB00E300FA120C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26Z3ZYB6BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MidnightOil.Bedside-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bedside Clock";
+			};
+			name = Debug;
+		};
+		DCF5B3EB29EB00E300FA120C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26Z3ZYB6BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MidnightOil.Bedside-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bedside Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCF5B3AF29EB00DF00FA120C /* Build configuration list for PBXProject "Bedside Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF5B3E129EB00E300FA120C /* Debug */,
+				DCF5B3E229EB00E300FA120C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF5B3E329EB00E300FA120C /* Build configuration list for PBXNativeTarget "Bedside Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF5B3E429EB00E300FA120C /* Debug */,
+				DCF5B3E529EB00E300FA120C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF5B3E629EB00E300FA120C /* Build configuration list for PBXNativeTarget "Bedside ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF5B3E729EB00E300FA120C /* Debug */,
+				DCF5B3E829EB00E300FA120C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF5B3E929EB00E300FA120C /* Build configuration list for PBXNativeTarget "Bedside ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF5B3EA29EB00E300FA120C /* Debug */,
+				DCF5B3EB29EB00E300FA120C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCF5B3AC29EB00DF00FA120C /* Project object */;
+}
